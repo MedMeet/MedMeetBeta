@@ -44,8 +44,7 @@
 					<form class="tt-reg-form">
 						<input class="tt-reg-form-input" type="text" placeholder="Email Address" name="email"><br>
 						<input class="tt-reg-form-input" type="text" placeholder="Password" name="password"><br>
-						<p style="margin-top:20px;"><a class="button_alt button_light" href="./patienthome.jsp">Submit</a></p>
-						<!--<input class="button button_light" type="button" value="Submit" style="background:rgba(0,0,0,0); margin-top:20px;">-->
+						<p style="margin-top:20px;"><a class="button_alt button_light" href="./patienthome.jsp">Log In</a></p>
 					</form>
 				</p>	
 			</div>			
