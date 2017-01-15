@@ -1,0 +1,12 @@
+/*Hide Ads on Mobile*/
+@media (max-width: 992px){
+	.ad-space{
+		display:none;
+	}
+	
+	.body-space{
+		border-right:none; 
+		border-left:none;
+	}
+}
+

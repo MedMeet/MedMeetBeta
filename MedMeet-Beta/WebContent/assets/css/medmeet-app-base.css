@@ -1,0 +1,410 @@
+/*Basic CSS*/
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+html {
+	font-family: sans-serif;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+body {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.42857143;
+	color: #333;
+	background-color: #fff;
+}
+
+/*Navbar CSS*/
+
+.fixed-nav-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
+	height: 50px;
+	background-color: #CC0000;
+}
+
+.fixed-nav-bar img{
+	padding:0px;
+	margin:5px 0px 5px 50px;
+}
+
+img .menu_icon{
+	padding:0px;
+	margin:5px 0px 0px 0px;
+}
+
+.navbar_left{
+	width:50px;
+	float:left;
+	margin:0px auto 5px -20px;
+}
+	
+.navbar_right{
+	width:100px;
+	float:right;
+	margin:0px 20px 5px 0px;
+}
+
+.header_nav_link{
+	text-decoration:none;
+	color:#FFFFFF;
+	font-size: 18px;
+	margin:5px 50px 5px 0;
+}
+
+
+/*Slideout Menu CSS*/
+
+.slideout-menu {
+	position: fixed;
+	top: 0;
+	left: -250px;
+	width: 250px;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.8);
+	margin-top:50px;
+	z-index: 100;
+}
+
+.slideout-menu h3 {
+	position: relative;
+	padding: 12px 10px;
+	color: #fff;
+	font-size: 1.2em;
+	font-weight: 400;
+	border-bottom: 4px solid #222;
+}
+
+.slideout-menu .slideout-menu-toggle {
+	position: absolute;
+	top: 12px;
+	right: 10px;
+	display: inline-block;
+	padding: 6px 9px 5px;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+	line-height: 1;
+	background: #222;
+	color: #999;
+	text-decoration: none;
+	vertical-align: top;
+}
+
+.slideout-menu .slideout-menu-toggle:hover {
+	color: #fff;
+}
+
+.slideout-menu ul {
+	list-style: none;
+	font-weight: 300;
+	font-size:20px;
+	border-top: 1px solid #151515;
+	border-bottom: 1px solid #454545;
+	margin-left:-35px;
+}
+
+.slideout-menu ul li {
+	border-top: 1px solid #454545;
+	border-bottom: 1px solid #151515;
+}
+
+.slideout-menu ul li a {
+	position: relative;
+	display: block;
+	padding: 10px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.slideout-menu ul li a:hover {
+	background: #000;
+	color: #fff;
+}
+
+.slideout-menu ul li a i {
+	position: absolute;
+	top: 15px;
+	right: 10px;
+	opacity: .5;
+}
+
+/*Link CSS*/
+a.header_nav_link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a.header_nav_link:hover,
+a.header_nav_link:focus {
+	color: #77ABCC;
+	text-decoration: underline;
+}
+
+a.header_nav_link:focus {
+	outline: thin dotted;
+	outline: 5px auto -webkit-focus-ring-color;
+	outline-offset: -2px;
+}
+
+/*Registration Page CSS*/
+.tt-reg-page{
+	width:100%;
+	min-height:100vh;
+	position:absolute;
+	text-align:center;
+}
+
+.tt-reg-page-inner{
+	text-align:center;
+	width:320px;
+	height:100%;
+	top:50%;
+	left:50%;
+	margin: 10% auto;
+}
+
+.tt-reg-form{
+	margin-top:25px;
+}
+
+.tt-reg-form-input{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+/*Standard Button CSS*/
+button{background-color:#FFFFFF;}
+
+button.button_light, .button_light {
+   border: 3px solid #FFFFFF;
+   padding: 10.5px 21px;
+   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   border-radius: 6px;
+   -webkit-box-shadow: rgba(204,0,0,1) 0 0px 0, inset rgba(204,0,0,1) 0 0px 0;
+   -moz-box-shadow: rgba(204,0,0,1) 0 0px 0, inset rgba(204,0,0,1) 0 0px 0;
+   box-shadow: rgba(204,0,0,1) 0 0px 0, inset rgba(204,0,0,1) 0 0px 0;
+   color: #FFFFFF;
+   font-size: 20px;
+   font-family: inherit, sans-serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+   
+.button_dark {
+   border: 3px solid #0E1522;
+   padding: 10.5px 21px;
+   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   border-radius: 6px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+   color: #0E1522;
+   font-size: 20px;
+   font-family: inherit, sans-serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+   
+button.button:hover, .button:hover {
+   border: 3px solid #CC0000;
+   color: #CC0000;
+   }
+   
+button.button:active, .button:active {
+   border: 3px solid #CC0000;
+   color: #CC0000;
+   }
+   
+button.button:focus .button:focus{
+   border: 3px solid #00C0E4;
+   color: #CC0000;
+   text-decoration:none;
+   } 
+
+.button_alt{
+	width:300px;
+}   
+   
+.button_alt:hover {
+   border: 3px solid #CC0000;
+   background-color: #CC0000;
+   text-decoration:none;
+   color:#FFFFFF;
+   }
+   
+.button_alt:active {
+   border: 3px solid #CC0000;
+   color: #CC0000;
+   }
+
+.button_alt:focus{
+   border: 3px solid #CC0000;
+   color: #CC0000;
+   text-decoration:none;
+   } 
+      
+a.button_alt, a.button:hover{
+	text-decoration:none;
+}
+
+/*App UI Body Elements*/
+
+.app-home-activity{
+	width:100%;
+	height: 100%;
+	margin-top:70px;
+}
+
+.body-space{
+	border-right:1px solid #000000; 
+	border-left:1px solid #000000;
+}
+
+.app-ad-roll{
+	width:100%;
+	height: 100%;
+	margin-top:70px;
+}
+
+#app-status-post{
+	margin-top:20px;
+	width:100%;
+	height: 100%;
+	margin-bottom:100px;
+}
+
+.textsubmit1{
+	float:right;
+}
+
+.app-post-area{
+	width:100%;
+	height: 100%;
+}
+
+.app-status-update{
+	min-height:100%;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+
+.app-messages-profile-pic {
+	width:60;
+	height:100%;
+	margin-right:20px;
+	margin-top:50px;
+	float:left;
+} 
+
+.app-status-float-right{
+	width:calc(100% - 80px);
+	height:100%;
+	float:left;
+	margin-top:40px;
+}
+
+.app-posting-tags{
+	width:100%;
+	color:#A6A6A6;
+}
+
+.status-box-bg1{
+	width:100%;
+	height:100%;
+}
+
+.app-posting-feedback{
+	float:left;
+}
+
+
+/*BEGIN MEDMEET CUSTOM CSS*/
+
+.medmeet_usr_prof_input{
+	margin-top:7px; 
+	margin-left:-50px;
+}
+
+.medmeet_usr_prof_info{
+	width:100%;
+	display:block;
+}
+
+.body-space-large{
+	border-left:1px solid #000000;
+	border-right:1px solid #000000;
+}
+
+.app-home-activity-findDoc{
+	width:100%;
+	height: 100%;
+	margin-top:70px;
+	padding-left:20px;
+}
+
+.app-status-update-findDoc{
+	min-height:100%;
+	margin-top:0px; 
+	margin-bottom:0px;
+}
+
+
+.app-status-float-right-findDoc{
+	line-height:1.25;
+}
+/*END MEDMEET CUSTOM CSS*/
+
+
+/*BEGIN GOOGLE MAPS CSS*/
+#map {
+height: 100%;
+}
+
+/*END GOOGLE MAPS CSS*/
+
+/*DARK BUTTON*/
+.button_alt_dark{
+	width:300px;
+}   
+   
+.button_alt_dark:hover {
+   border: 3px solid #CC0000;
+   background-color: #CC0000;
+   text-decoration:none;
+   color:#FFFFFF;
+   }
+   
+.button_alt_dark:active {
+   border: 3px solid #CC0000;
+   color: #FFFFFF;
+   }
+
+.button_alt_dark:focus{
+   border: 3px solid #CC0000;
+   color: #CC0000;
+   text-decoration:none;
+   } 
+      
+a.button_alt_dark, a.button:hover{
+	text-decoration:none;
+}
+
+button.button_light_alt, .button_light_alt {
+   border: 3px solid #CC0000;
+   padding: 10.5px 21px;
+   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   border-radius: 6px;
+   -webkit-box-shadow: rgba(204,0,0,1) 0 0px 0, inset rgba(204,0,0,1) 0 0px 0;
+   -moz-box-shadow: rgba(204,0,0,1) 0 0px 0, inset rgba(204,0,0,1) 0 0px 0;
+   box-shadow: rgba(204,0,0,1) 0 0px 0, inset rgba(204,0,0,1) 0 0px 0;
+   color: #CC0000;
+   font-size: 20px;
+   font-family: inherit, sans-serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
